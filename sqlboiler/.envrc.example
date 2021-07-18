@@ -1,0 +1,6 @@
+export PSQL_DBSCHEMA="public"
+export PSQL_DBNAME="mydbname"
+export PSQL_HOST="localhost"
+export PSQL_PORT=5432
+export PSQL_USER="myyou"
+export PSQL_SSLMODE="disable"

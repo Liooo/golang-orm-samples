@@ -1,0 +1,27 @@
+issues:
+  fix: true
+linters:
+  enable:
+    - deadcode
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - structcheck
+    - typecheck
+    - unused
+    - varcheck
+    - gocritic
+    - gofmt
+    - goimports
+    - stylecheck
+    - sqlclosecheck
+    - nilerr
+    - gosec
+
+linters-settings:
+  gofmt:
+    simplify: true
+  goimports:
+    local-prefixes: github.com/Liooo/golang-orm-samples
